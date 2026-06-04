@@ -1,0 +1,41 @@
+# ── SECRETS — NEVER COMMIT ──────────────────────────────────
+.env
+.env.local
+.env.*.local
+.env.production
+*.pem
+*.key
+secrets/
+appsettings.Production.json
+
+# ── .NET ────────────────────────────────────────────────────
+bin/
+obj/
+*.user
+*.suo
+.vs/
+*.swp
+TestResults/
+coverage/
+logs/*.log
+*.nupkg
+
+# ── Node / Frontend ─────────────────────────────────────────
+node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+.npm
+*.tsbuildinfo
+
+# ── Docker volumes ────────────────────────────────────────────
+storage/
+pgdata/
+
+# ── IDE ───────────────────────────────────────────────────────
+.idea/
+*.iml
+.vscode/settings.json
+*.DS_Store
+Thumbs.db
